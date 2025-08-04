@@ -1,9 +1,16 @@
-@import 'tailwindcss';
-@import 'tw-animate-css';
+@import "tailwindcss";
+@import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
 
 :root {
+  /* Custom Color Palette */
+  --color-lavender: #cdb4db;
+  --color-pink-light: #ffc8dd;
+  --color-pink-medium: #ffafcc;
+  --color-blue-light: #bde0fe;
+  --color-blue-medium: #a2d2ff;
+
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
@@ -75,6 +82,26 @@
 }
 
 @theme inline {
+  /* Custom Color Palette */
+  --color-lavender: var(--color-lavender);
+  --color-pink-light: var(--color-pink-light);
+  --color-pink-medium: var(--color-pink-medium);
+  --color-blue-light: var(--color-blue-light);
+  --color-blue-medium: var(--color-blue-medium);
+
+  /* Override default pink colors with custom palette */
+  --color-pink-50: #fef7f9;
+  --color-pink-100: #fdeef3;
+  --color-pink-200: #fbdde8;
+  --color-pink-300: #f7c2d4;
+  --color-pink-400: #f19bb8;
+  --color-pink-500: #ffafcc; /* Your custom color */
+  --color-pink-600: #e69fb8; /* Slightly darker for hover */
+  --color-pink-700: #d18a9e;
+  --color-pink-800: #b06f7f;
+  --color-pink-900: #925d6a;
+  --color-pink-950: #5a2f3a;
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
