@@ -4,12 +4,12 @@ import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Boink Agency",
+  title: "Boink Talent Agency",
   description:
     "The premier OnlyFans marketing agency helping creators achieve financial freedom through strategic growth.",
   generator: "v0.dev",
   icons: {
-    icon: "/favicon.png",
+    icon: "favicon.png",
   },
 };
 
@@ -21,6 +21,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="icon" href="favicon.png" type="image/png" sizes="32x32" />
+        <link rel="shortcut icon" href="favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="favicon.png" sizes="180x180" />
+        <link rel="icon" href="favicon.png" type="image/png" sizes="16x16" />
         <style>{`
 html {
   font-family: ${GeistSans.style.fontFamily};

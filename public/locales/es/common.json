@@ -1,0 +1,169 @@
+{
+  "header": {
+    "brand": "BOINK AGENCY",
+    "nav": {
+      "benefits": "Beneficios",
+      "about": "Acerca de",
+      "impact": "Nuestro Impacto",
+      "contact": "Contacto"
+    },
+    "language": {
+      "english": "English",
+      "spanish": "Español",
+      "portuguese": "Português",
+      "autoDetect": "Detección automática"
+    },
+    "applyButton": "Aplicar Hoy"
+  },
+  "hero": {
+    "badge": "#1 Agencia de Talento OnlyFans",
+    "title": "Únete a Nuestro Equipo de Creadores de Contenido a Tiempo Completo",
+    "description": "¿Eres una persona vibrante, confiable y creativa con pasión por el entretenimiento para adultos? Únete a nosotros como creador asalariado y disfruta de la estabilidad de un ingreso garantizado mientras haces lo que amas.",
+    "applyButton": "Aplicar Hoy →",
+    "stats": {
+      "creatorsManaged": "Creadores Gestionados",
+      "minimumSalary": "Pagado semanalmente",
+      "averageTenure": "Promedio de Permanencia"
+    }
+  },
+  "benefits": {
+    "badge": "Tus Beneficios",
+    "title": "Todo lo que Necesitas para Prosperar",
+    "description": "Desde libertad creativa hasta apoyo profesional, proporcionamos las herramientas y estabilidad para ayudarte a tener éxito como creador de contenido asalariado.",
+    "cards": {
+      "guaranteedIncome": {
+        "title": "Ingreso Garantizado",
+        "description": "Disfruta de la seguridad de un cheque consistente, permitiéndote enfocarte en crear contenido cautivador sin estrés financiero."
+      },
+      "creativeFreedom": {
+        "title": "Libertad Creativa",
+        "description": "Muestra tus talentos únicos y personalidad con contenido que refleje tus pasiones, respaldado por nuestro equipo experto."
+      },
+      "amplifyAudience": {
+        "title": "Amplifica tu Audiencia",
+        "description": "Aprovecha tu audiencia existente o construye una nueva con nuestras estrategias para convertir seguidores en suscriptores leales."
+      },
+      "professionalSupport": {
+        "title": "Apoyo Profesional",
+        "description": "Soporte dedicado 24/7 de nuestro equipo para guiarte en la creación de contenido y el compromiso con los fans."
+      },
+      "brandProtection": {
+        "title": "Protección de Marca",
+        "description": "Servicios integrales para proteger tu contenido y reputación en un entorno seguro y profesional."
+      },
+      "thriveInAdultEntertainment": {
+        "title": "Prospera en el Entretenimiento para Adultos",
+        "description": "Crea contenido audaz y auténtico en un entorno de apoyo diseñado para la industria del entretenimiento para adultos."
+      }
+    }
+  },
+  "results": {
+    "badge": "Nuestro Impacto",
+    "title": "Historias de Éxito que Inspiran",
+    "description": "Nuestro apoyo ha empoderado a cientos de creadores para lograr estabilidad financiera y éxito creativo.",
+    "stats": {
+      "minimumSalary": "Salario Mensual Mínimo",
+      "creatorsManaged": "Creadores Gestionados",
+      "averageTenure": "Promedio de Permanencia",
+      "creatorSatisfaction": "Satisfacción del Creador"
+    },
+    "whyChoose": {
+      "title": "Por Qué los Creadores Eligen Boink Agency",
+      "points": [
+        "3+ años de experiencia en OnlyFans",
+        "Colaboración transparente e ingreso garantizado",
+        "Equipo de soporte dedicado 24/7",
+        "Oportunidades éticas y sostenibles"
+      ]
+    }
+  },
+  "about": {
+    "badge": "Acerca de Boink Agency",
+    "title": "La Agencia de Talento OnlyFans de Primera Clase",
+    "description": "Fundada por veteranos de la industria con profunda experiencia en marketing digital y monetización de contenido, Boink Agency es el socio preferido para talentosos creadores de OnlyFans.",
+    "paragraph1": "Nuestro equipo combina estrategias de vanguardia con conocimiento íntimo de la plataforma OnlyFans para empoderar a los creadores. Hemos ayudado a creadores de todos los orígenes a lograr estabilidad financiera y éxito creativo.",
+    "paragraph2": "Lo que nos distingue es nuestro compromiso con la transparencia, prácticas éticas y asociaciones a largo plazo. No solo apoyamos cuentas – construimos carreras sostenibles que prosperan en la economía de creadores de contenido."
+  },
+  "contact": {
+    "badge": "Comenzar",
+    "title": "¿Listo para Construir tu Futuro?",
+    "description": "Únete a talentosos creadores que confían en Boink Agency para proporcionar una carrera estable y emocionante en la creación de contenido.",
+    "form": {
+      "title": "Aplicar para Unirse a Nuestro Equipo",
+      "name": "Nombre",
+      "namePlaceholder": "Ingresa tu nombre",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "Ingresa tu correo electrónico",
+      "income": "Ingreso Mensual Actual",
+      "incomePlaceholder": "Selecciona rango de ingreso",
+      "incomeOptions": {
+        "option1": "$0 - $1,000",
+        "option2": "$1,000 - $5,000",
+        "option3": "$5,000 - $10,000",
+        "option4": "$10,000+"
+      },
+      "socials": "Lista cualquier red social",
+      "socialsPlaceholder": "OnlyFans, Instagram, TikTok, Twitter, etc.",
+      "goals": "Cuéntanos sobre tus objetivos",
+      "goalsPlaceholder": "¿Qué buscas lograr?",
+      "submitButton": "Aplicar Ahora"
+    },
+    "getInTouch": {
+      "title": "Ponte en Contacto",
+      "description": "¿Listo para convertir tu pasión por la creación de contenido en una carrera estable? Nuestro equipo está aquí para hacerlo realidad.",
+      "telegram": {
+        "title": "Telegram",
+        "handle": "@boink_agency",
+        "description": "Disponible 24/7 para asuntos urgentes"
+      },
+      "email": {
+        "title": "Correo Electrónico",
+        "address": "hello@boinkagency.com",
+        "description": "Responderemos en 2 horas"
+      },
+      "offices": {
+        "title": "Oficinas",
+        "locations": "Nueva York y São Paulo",
+        "description": "Equipo remoto mundial"
+      }
+    },
+    "whyChoose": {
+      "title": "¿Por Qué Elegir Boink Agency?",
+      "points": [
+        "3+ años de experiencia en OnlyFans",
+        "Ingreso garantizado para creadores",
+        "Equipo de soporte dedicado 24/7",
+        "Colaboración transparente",
+        "Oportunidades éticas y sostenibles"
+      ]
+    }
+  },
+  "footer": {
+    "description": "La agencia de talento OnlyFans de primera clase que empodera a los creadores con carreras estables y gratificantes a través de apoyo estratégico.",
+    "benefits": {
+      "title": "Beneficios",
+      "guaranteedIncome": "Ingreso Garantizado",
+      "creativeFreedom": "Libertad Creativa",
+      "amplifyAudience": "Amplifica tu Audiencia",
+      "brandProtection": "Protección de Marca"
+    },
+    "company": {
+      "title": "Empresa",
+      "aboutUs": "Acerca de Nosotros",
+      "caseStudies": "Casos de Estudio",
+      "careers": "Carreras",
+      "contact": "Contacto"
+    },
+    "links": {
+      "privacy": "Privacidad",
+      "terms": "Términos",
+      "support": "Soporte",
+      "instagram": "Instagram"
+    },
+    "copyright": "© {{year}} Boink Agency. Todos los derechos reservados."
+  },
+  "form": {
+    "success": "¡Gracias! Nos pondremos en contacto pronto.",
+    "error": "Algo salió mal. Por favor, inténtalo de nuevo."
+  }
+}
