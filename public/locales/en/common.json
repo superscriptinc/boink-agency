@@ -13,7 +13,7 @@
       "portuguese": "Português",
       "autoDetect": "Auto-detect"
     },
-    "applyButton": "Apply Today"
+    "applyButton": "Apply"
   },
   "hero": {
     "badge": "#1 OnlyFans Talent Agency",
@@ -62,7 +62,7 @@
     "title": "Success Stories That Inspire",
     "description": "Our support has empowered hundreds of creators to achieve financial stability and creative success.",
     "stats": {
-      "minimumSalary": "Minimum Monthly Salary",
+      "minimumSalary": "Paid Weekly",
       "creatorsManaged": "Creators Managed",
       "averageTenure": "Average Tenure",
       "creatorSatisfaction": "Creator Satisfaction"
