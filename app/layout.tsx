@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   description:
     "The premier OnlyFans marketing agency helping creators achieve financial freedom through strategic growth.",
   generator: "v0.dev",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({

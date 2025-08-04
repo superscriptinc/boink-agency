@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -30,6 +32,40 @@ import {
 } from "@/components/ui/accordion";
 
 export default function BoinkAgency() {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+    const data = {
+      name: formData.get("name"),
+      email: formData.get("email"),
+      revenue: formData.get("revenue"),
+      socials: formData.get("socials"),
+      goals: formData.get("goals"),
+    };
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (response.ok) {
+        alert("Thank you! We'll be in touch soon.");
+        form.reset();
+      } else {
+        alert("Something went wrong. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      alert("Something went wrong. Please try again.");
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
@@ -613,28 +649,18 @@ export default function BoinkAgency() {
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">
                   Get Your Free Strategy Call
                 </h3>
-                <form className="space-y-6">
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">
-                        First Name
-                      </label>
-                      <input
-                        type="text"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent"
-                        placeholder="Enter your first name"
-                      />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">
-                        Last Name
-                      </label>
-                      <input
-                        type="text"
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent"
-                        placeholder="Enter your last name"
-                      />
-                    </div>
+                <form className="space-y-6" onSubmit={handleSubmit}>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      Name
+                    </label>
+                    <input
+                      type="text"
+                      name="name"
+                      required
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent"
+                      placeholder="Enter your name"
+                    />
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -642,6 +668,8 @@ export default function BoinkAgency() {
                     </label>
                     <input
                       type="email"
+                      name="email"
+                      required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent"
                       placeholder="Enter your email"
                     />
@@ -650,25 +678,41 @@ export default function BoinkAgency() {
                     <label className="block text-sm font-medium text-gray-700 mb-2">
                       Current Monthly Revenue
                     </label>
-                    <select className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent">
-                      <option>Select revenue range</option>
-                      <option>$0 - $1,000</option>
-                      <option>$1,000 - $5,000</option>
-                      <option>$5,000 - $10,000</option>
-                      <option>$10,000+</option>
+                    <select
+                      name="revenue"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent"
+                    >
+                      <option value="">Select revenue range</option>
+                      <option value="$0 - $1,000">$0 - $1,000</option>
+                      <option value="$1,000 - $5,000">$1,000 - $5,000</option>
+                      <option value="$5,000 - $10,000">$5,000 - $10,000</option>
+                      <option value="$10,000+">$10,000+</option>
                     </select>
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      List any socials
+                    </label>
+                    <textarea
+                      name="socials"
+                      rows={2}
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent"
+                      placeholder="Instagram, TikTok, Twitter, etc."
+                    ></textarea>
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
                       Tell us about your goals
                     </label>
                     <textarea
+                      name="goals"
                       rows={4}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent"
                       placeholder="What are you looking to achieve?"
                     ></textarea>
                   </div>
                   <Button
+                    type="submit"
                     size="lg"
                     className="w-full bg-pink-400 hover:bg-pink-600"
                   >
