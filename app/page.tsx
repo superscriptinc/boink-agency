@@ -85,7 +85,7 @@ export default function BoinkAgency() {
               href="#services"
               className="text-gray-600 hover:text-gray-900 transition-colors"
             >
-              Services
+              Benefits
             </Link>
             <Link
               href="#about"
@@ -97,14 +97,9 @@ export default function BoinkAgency() {
               href="#results"
               className="text-gray-600 hover:text-gray-900 transition-colors"
             >
-              Results
+              Our Impact
             </Link>
-            <Link
-              href="#faqs"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
-            >
-              FAQs
-            </Link>
+
             <Link
               href="#contact"
               className="text-gray-600 hover:text-gray-900 transition-colors"
@@ -140,7 +135,6 @@ export default function BoinkAgency() {
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center">
-        {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
             src="/office-1.jpg"
@@ -149,7 +143,6 @@ export default function BoinkAgency() {
             className="object-cover w-full h-full"
             priority
           />
-          {/* Dark Gradient Overlay */}
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
         </div>
 
@@ -158,16 +151,16 @@ export default function BoinkAgency() {
             <div className="space-y-8">
               <div className="space-y-4">
                 <Badge className="bg-[#FFC8DD] text-[#8B5A8B] hover:bg-[#FFC8DD]">
-                  #1 OnlyFans Marketing Agency
+                  #1 OnlyFans Talent Agency
                 </Badge>
                 <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight">
-                  Scale Your OnlyFans Revenue to{" "}
-                  <span className="text-purple-500">6-Figures</span>
+                  Join Our Team of Full-Time Content Creators
                 </h1>
                 <p className="text-xl text-gray-200 leading-relaxed">
-                  We help content creators maximize their earning potential
-                  through proven marketing strategies, professional management,
-                  and data-driven growth tactics.
+                  Are you a vibrant, reliable, and creative individual with a
+                  passion for adult entertainment? Join us as salaried creator
+                  and enjoy the stability of a guaranteed income while doing
+                  what you love.
                 </p>
               </div>
 
@@ -182,16 +175,18 @@ export default function BoinkAgency() {
 
               <div className="flex items-center space-x-8 pt-4">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-white">500+</div>
+                  <div className="text-2xl font-bold text-white">7+</div>
                   <div className="text-sm text-gray-300">Creators Managed</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-white">$50M+</div>
-                  <div className="text-sm text-gray-300">Revenue Generated</div>
+                  <div className="text-2xl font-bold text-white">$1,000</div>
+                  <div className="text-sm text-gray-300">
+                    Minimum Monthly Salary
+                  </div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-white">300%</div>
-                  <div className="text-sm text-gray-300">Avg Growth Rate</div>
+                  <div className="text-2xl font-bold text-white">25 Months</div>
+                  <div className="text-sm text-gray-300">Average Tenure</div>
                 </div>
               </div>
             </div>
@@ -199,12 +194,11 @@ export default function BoinkAgency() {
         </div>
       </section>
 
-      {/* Services Section */}
+      {/* Benefits Section */}
       <section
         id="services"
         className="py-20 bg-white relative overflow-hidden"
       >
-        {/* Abstract Gradient Shape */}
         <div
           style={{
             clipPath:
@@ -216,14 +210,15 @@ export default function BoinkAgency() {
         <div className="container mx-auto px-4 lg:px-6 relative z-10">
           <div className="text-center space-y-4 mb-16">
             <Badge className="bg-[#BDE0FE] text-[#2E5A88] hover:bg-[#BDE0FE]">
-              Our Services
+              Your Benefits
             </Badge>
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900">
-              Everything You Need to Succeed
+              Everything You Need to Thrive
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From content strategy to fan engagement, we provide comprehensive
-              solutions to maximize your OnlyFans potential.
+              From creative freedom to professional support, we provide the
+              tools and stability to help you succeed as a salaried content
+              creator.
             </p>
           </div>
 
@@ -231,7 +226,7 @@ export default function BoinkAgency() {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow overflow-hidden relative h-96">
               <Image
                 src="/model-3.jpg"
-                alt="Growth Marketing"
+                alt="Guaranteed Income"
                 fill
                 className="object-cover rounded-lg"
               />
@@ -242,12 +237,13 @@ export default function BoinkAgency() {
                     <TrendingUp className="h-5 w-5 text-white" />
                   </div>
                   <h3 className="text-xl font-bold text-white">
-                    Growth Marketing
+                    Guaranteed Income
                   </h3>
                 </div>
                 <p className="text-gray-200 mb-4">
-                  Strategic marketing campaigns across social media platforms to
-                  drive subscriber growth and engagement.
+                  Enjoy the security of a consistent paycheck, allowing you to
+                  focus on creating captivating content without financial
+                  stress.
                 </p>
               </CardContent>
             </Card>
@@ -255,31 +251,7 @@ export default function BoinkAgency() {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow overflow-hidden relative h-96">
               <Image
                 src="/model-4.jpg"
-                alt="Account Management"
-                fill
-                className="object-cover rounded-lg"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-black/30"></div>
-              <CardContent className="p-6 relative z-10 h-full flex flex-col justify-end">
-                <div className="flex items-center space-x-3 mb-4">
-                  <div className="w-10 h-10 bg-purple-400 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Users className="h-5 w-5 text-white" />
-                  </div>
-                  <h3 className="text-xl font-bold text-white">
-                    Account Management
-                  </h3>
-                </div>
-                <p className="text-gray-200 mb-4">
-                  Professional account management to optimize your profile,
-                  content, and fan interactions.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow overflow-hidden relative h-96">
-              <Image
-                src="/model-5.jpg"
-                alt="Content Strategy"
+                alt="Creative Freedom"
                 fill
                 className="object-cover rounded-lg"
               />
@@ -290,12 +262,36 @@ export default function BoinkAgency() {
                     <Zap className="h-5 w-5 text-white" />
                   </div>
                   <h3 className="text-xl font-bold text-white">
-                    Content Strategy
+                    Creative Freedom
                   </h3>
                 </div>
                 <p className="text-gray-200 mb-4">
-                  Data-driven content strategies that maximize engagement and
-                  conversion rates.
+                  Showcase your unique talents and personality with content that
+                  reflects your passions, supported by our expert team.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow overflow-hidden relative h-96">
+              <Image
+                src="/model-5.jpg"
+                alt="Amplify Your Audience"
+                fill
+                className="object-cover rounded-lg"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-black/30"></div>
+              <CardContent className="p-6 relative z-10 h-full flex flex-col justify-end">
+                <div className="flex items-center space-x-3 mb-4">
+                  <div className="w-10 h-10 bg-purple-400 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Users className="h-5 w-5 text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold text-white">
+                    Amplify Your Audience
+                  </h3>
+                </div>
+                <p className="text-gray-200 mb-4">
+                  Leverage your existing following or build a new one with our
+                  strategies to turn fans into loyal subscribers.
                 </p>
               </CardContent>
             </Card>
@@ -303,13 +299,37 @@ export default function BoinkAgency() {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow overflow-hidden relative h-96">
               <Image
                 src="/model-6.jpg"
-                alt="Brand Protection"
+                alt="Professional Support"
                 fill
                 className="object-cover rounded-lg"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-black/30"></div>
               <CardContent className="p-6 relative z-10 h-full flex flex-col justify-end">
                 <div className="flex items-center space-x-3 mb-4">
+                  <div className="w-10 h-10 bg-purple-400 rounded-lg flex items-center justify-center flex-shrink-0">
+                    <Star className="h-5 w-5 text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold text-white">
+                    Professional Support
+                  </h3>
+                </div>
+                <p className="text-gray-200 mb-4">
+                  24/7 dedicated support from our team to guide you in content
+                  creation and fan engagement.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow overflow-hidden relative h-96">
+              <Image
+                src="/model-7.jpg"
+                alt="Brand Protection"
+                fill
+                className="object-cover rounded-lg"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-black/30"></div>
+              <CardContent className="p-6 relative z-10 h-full flex flex-col justify-end">
+                <div className="flex items-center space-x-4 mb-4">
                   <div className="w-10 h-10 bg-purple-400 rounded-lg flex items-center justify-center flex-shrink-0">
                     <Shield className="h-5 w-5 text-white" />
                   </div>
@@ -318,32 +338,8 @@ export default function BoinkAgency() {
                   </h3>
                 </div>
                 <p className="text-gray-200 mb-4">
-                  Comprehensive brand protection services to safeguard your
-                  content and reputation.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow overflow-hidden relative h-96">
-              <Image
-                src="/model-7.jpg"
-                alt="Premium Support"
-                fill
-                className="object-cover rounded-lg"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-black/30"></div>
-              <CardContent className="p-6 relative z-10 h-full flex flex-col justify-end">
-                <div className="flex items-center space-x-4 mb-4">
-                  <div className="w-10 h-10 bg-purple-400 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Star className="h-5 w-5 text-white" />
-                  </div>
-                  <h3 className="text-xl font-bold text-white">
-                    Premium Support
-                  </h3>
-                </div>
-                <p className="text-gray-200 mb-4">
-                  24/7 dedicated support from our team of OnlyFans marketing
-                  experts.
+                  Comprehensive services to safeguard your content and
+                  reputation in a safe, professional environment.
                 </p>
               </CardContent>
             </Card>
@@ -351,7 +347,7 @@ export default function BoinkAgency() {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow overflow-hidden relative h-96">
               <Image
                 src="/model-8.jpg"
-                alt="Revenue Optimization"
+                alt="Thrive in Adult Entertainment"
                 fill
                 className="object-cover rounded-lg"
               />
@@ -362,12 +358,12 @@ export default function BoinkAgency() {
                     <TrendingUp className="h-5 w-5 text-white" />
                   </div>
                   <h3 className="text-xl font-bold text-white">
-                    Revenue Optimization
+                    Thrive in Adult Entertainment
                   </h3>
                 </div>
                 <p className="text-gray-200 mb-4">
-                  Advanced strategies to maximize your revenue through pricing
-                  optimization and upselling.
+                  Create bold, authentic content in a supportive environment
+                  tailored to the adult entertainment industry.
                 </p>
               </CardContent>
             </Card>
@@ -380,14 +376,14 @@ export default function BoinkAgency() {
         <div className="container mx-auto px-4 lg:px-6">
           <div className="text-center space-y-4 mb-16">
             <Badge className="bg-green-100 text-green-700 hover:bg-green-100">
-              Proven Results
+              Our Impact
             </Badge>
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900">
-              Success Stories That Speak Volumes
+              Success Stories That Inspire
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our data-driven approach has helped hundreds of creators achieve
-              financial freedom.
+              Our support has empowered hundreds of creators to achieve
+              financial stability and creative success.
             </p>
           </div>
 
@@ -396,27 +392,27 @@ export default function BoinkAgency() {
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center p-6 bg-white rounded-2xl shadow-lg">
                   <div className="text-3xl font-bold text-gray-900 mb-2">
-                    $50M+
+                    $1,000
                   </div>
-                  <div className="text-gray-600">Total Revenue Generated</div>
+                  <div className="text-gray-600">Minimum Monthly Salary</div>
                 </div>
                 <div className="text-center p-6 bg-white rounded-2xl shadow-lg">
                   <div className="text-3xl font-bold text-gray-900 mb-2">
-                    500+
+                    7+
                   </div>
                   <div className="text-gray-600">Creators Managed</div>
                 </div>
                 <div className="text-center p-6 bg-white rounded-2xl shadow-lg">
                   <div className="text-3xl font-bold text-gray-900 mb-2">
-                    300%
+                    25 Months
                   </div>
-                  <div className="text-gray-600">Average Growth Rate</div>
+                  <div className="text-gray-600">Average Tenure</div>
                 </div>
                 <div className="text-center p-6 bg-white rounded-2xl shadow-lg">
                   <div className="text-3xl font-bold text-gray-900 mb-2">
                     98%
                   </div>
-                  <div className="text-gray-600">Client Satisfaction</div>
+                  <div className="text-gray-600">Creator Satisfaction</div>
                 </div>
               </div>
 
@@ -428,25 +424,25 @@ export default function BoinkAgency() {
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-[#CDB4DB] rounded-full mt-2"></div>
                     <span className="text-gray-700">
-                      Industry-leading expertise with 5+ years of experience
+                      3+ years of OnlyFans expertise
                     </span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-[#CDB4DB] rounded-full mt-2"></div>
                     <span className="text-gray-700">
-                      Transparent reporting and real-time analytics
+                      Transparent collaboration and guaranteed income
                     </span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-[#CDB4DB] rounded-full mt-2"></div>
                     <span className="text-gray-700">
-                      Dedicated account managers and 24/7 support
+                      24/7 dedicated support team
                     </span>
                   </li>
                   <li className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-[#CDB4DB] rounded-full mt-2"></div>
                     <span className="text-gray-700">
-                      Proven strategies that deliver consistent results
+                      Ethical and sustainable opportunities
                     </span>
                   </li>
                 </ul>
@@ -467,7 +463,6 @@ export default function BoinkAgency() {
 
       {/* About Section */}
       <section id="about" className="py-20 bg-white relative overflow-hidden">
-        {/* Abstract Gradient Shape */}
         <div
           style={{
             clipPath:
@@ -478,6 +473,37 @@ export default function BoinkAgency() {
 
         <div className="container mx-auto px-4 lg:px-6 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
+            <div className="space-y-6">
+              <div className="space-y-4">
+                <Badge className="bg-[#BDE0FE] text-[#2E5A88] hover:bg-[#BDE0FE]">
+                  About Boink Agency
+                </Badge>
+                <h2 className="text-3xl lg:text-5xl font-bold text-gray-900">
+                  The Premier OnlyFans Talent Agency
+                </h2>
+                <p className="text-xl text-gray-600 leading-relaxed">
+                  Founded by industry veterans with deep expertise in digital
+                  marketing and content monetization, Boink Agency is the go-to
+                  partner for talented OnlyFans creators.
+                </p>
+              </div>
+
+              <div className="space-y-4">
+                <p className="text-gray-600">
+                  Our team combines cutting-edge strategies with intimate
+                  knowledge of the OnlyFans platform to empower creators. We've
+                  helped creators from all backgrounds achieve financial
+                  stability and creative success.
+                </p>
+                <p className="text-gray-600">
+                  What sets us apart is our commitment to transparency, ethical
+                  practices, and long-term partnerships. We don’t just support
+                  accounts – we build sustainable careers that thrive in the
+                  content creator economy.
+                </p>
+              </div>
+            </div>
+
             <div className="relative h-[550px] rounded-2xl overflow-hidden">
               <Image
                 src="/model-2.jpg"
@@ -486,143 +512,6 @@ export default function BoinkAgency() {
                 className="object-scale-down rounded-2xl"
               />
             </div>
-
-            <div className="space-y-6">
-              <div className="space-y-4">
-                <Badge className="bg-[#BDE0FE] text-[#2E5A88] hover:bg-[#BDE0FE]">
-                  About Boink Agency
-                </Badge>
-                <h2 className="text-3xl lg:text-5xl font-bold text-gray-900">
-                  The Premier OnlyFans Marketing Agency
-                </h2>
-                <p className="text-xl text-gray-600 leading-relaxed">
-                  Founded by industry veterans with deep expertise in digital
-                  marketing and content monetization, Boink Agency has become
-                  the go-to partner for serious OnlyFans creators.
-                </p>
-              </div>
-
-              <div className="space-y-4">
-                <p className="text-gray-600">
-                  Our team combines cutting-edge marketing strategies with
-                  intimate knowledge of the OnlyFans platform to deliver
-                  exceptional results. We've helped creators from all
-                  backgrounds achieve financial independence through strategic
-                  growth and optimization.
-                </p>
-                <p className="text-gray-600">
-                  What sets us apart is our commitment to transparency, ethical
-                  practices, and long-term partnerships. We don't just manage
-                  accounts – we build sustainable businesses that thrive in the
-                  competitive content creator economy.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQs Section */}
-      <section id="faqs" className="py-20 bg-gray-50 relative overflow-hidden">
-        {/* Abstract Gradient Shape */}
-        <div
-          style={{
-            clipPath:
-              "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
-          }}
-          className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-pink-400/20 to-purple-500/20 -translate-y-48 translate-x-48"
-        ></div>
-
-        <div className="container mx-auto px-4 lg:px-6 relative z-10">
-          <div className="text-center space-y-4 mb-16">
-            <Badge className="bg-[#BDE0FE] text-[#2E5A88] hover:bg-[#BDE0FE]">
-              FAQs
-            </Badge>
-            <h2 className="text-3xl lg:text-5xl font-bold text-gray-900">
-              Frequently Asked Questions
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Everything you need to know about working with Boink Agency to
-              scale your OnlyFans business.
-            </p>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            <Accordion type="single" collapsible className="space-y-4">
-              <AccordionItem
-                value="item-1"
-                className="bg-white rounded-lg shadow-md"
-              >
-                <AccordionTrigger className="px-6 py-4 text-left">
-                  How long does it take to see results?
-                </AccordionTrigger>
-                <AccordionContent className="px-6 pb-4">
-                  Most creators see significant improvements within 30-60 days
-                  of working with us. We focus on sustainable growth strategies
-                  that deliver consistent, long-term results rather than quick
-                  spikes.
-                </AccordionContent>
-              </AccordionItem>
-
-              <AccordionItem
-                value="item-2"
-                className="bg-white rounded-lg shadow-md"
-              >
-                <AccordionTrigger className="px-6 py-4 text-left">
-                  What services are included in your packages?
-                </AccordionTrigger>
-                <AccordionContent className="px-6 pb-4">
-                  Our comprehensive packages include growth marketing, account
-                  management, content strategy, brand protection, premium
-                  support, and revenue optimization. Each package is customized
-                  to your specific needs and goals.
-                </AccordionContent>
-              </AccordionItem>
-
-              <AccordionItem
-                value="item-3"
-                className="bg-white rounded-lg shadow-md"
-              >
-                <AccordionTrigger className="px-6 py-4 text-left">
-                  Do you work with creators outside the US?
-                </AccordionTrigger>
-                <AccordionContent className="px-6 pb-4">
-                  Yes! We work with creators worldwide. Our team operates in
-                  multiple time zones and we have offices in New York City and
-                  São Paulo to serve our global client base effectively.
-                </AccordionContent>
-              </AccordionItem>
-
-              <AccordionItem
-                value="item-4"
-                className="bg-white rounded-lg shadow-md"
-              >
-                <AccordionTrigger className="px-6 py-4 text-left">
-                  How do you protect my content and brand?
-                </AccordionTrigger>
-                <AccordionContent className="px-6 pb-4">
-                  We provide comprehensive brand protection including DMCA
-                  takedowns, content monitoring, legal support, and privacy
-                  protection. Our team actively monitors for unauthorized use of
-                  your content across platforms.
-                </AccordionContent>
-              </AccordionItem>
-
-              <AccordionItem
-                value="item-5"
-                className="bg-white rounded-lg shadow-md"
-              >
-                <AccordionTrigger className="px-6 py-4 text-left">
-                  What makes Boink Agency different from other agencies?
-                </AccordionTrigger>
-                <AccordionContent className="px-6 pb-4">
-                  Our 5+ years of specialized OnlyFans experience, $50M+ in
-                  client revenue generated, 24/7 dedicated support, and
-                  transparent reporting set us apart. We build sustainable
-                  businesses, not just manage accounts.
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
           </div>
         </div>
       </section>
@@ -635,11 +524,11 @@ export default function BoinkAgency() {
               Get Started
             </Badge>
             <h2 className="text-3xl lg:text-5xl font-bold text-gray-900">
-              Ready to Scale Your Revenue?
+              Ready to Build Your Future?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Join hundreds of successful creators who trust Boink Agency to
-              maximize their OnlyFans potential.
+              Join talented creators who trust Boink Agency to provide a stable,
+              exciting career in content creation.
             </p>
           </div>
 
@@ -647,7 +536,7 @@ export default function BoinkAgency() {
             <Card className="border-0 shadow-2xl">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                  Get Your Free Strategy Call
+                  Apply to Join Our Team
                 </h3>
                 <form className="space-y-6" onSubmit={handleSubmit}>
                   <div>
@@ -676,13 +565,13 @@ export default function BoinkAgency() {
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Current Monthly Revenue
+                      Current Monthly Income
                     </label>
                     <select
-                      name="revenue"
+                      name="income"
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent"
                     >
-                      <option value="">Select revenue range</option>
+                      <option value="">Select income range</option>
                       <option value="$0 - $1,000">$0 - $1,000</option>
                       <option value="$1,000 - $5,000">$1,000 - $5,000</option>
                       <option value="$5,000 - $10,000">$5,000 - $10,000</option>
@@ -697,7 +586,7 @@ export default function BoinkAgency() {
                       name="socials"
                       rows={2}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent"
-                      placeholder="Instagram, TikTok, Twitter, etc."
+                      placeholder="OnlyFans, Instagram, TikTok, Twitter, etc."
                     ></textarea>
                   </div>
                   <div>
@@ -716,7 +605,7 @@ export default function BoinkAgency() {
                     size="lg"
                     className="w-full bg-pink-400 hover:bg-pink-600"
                   >
-                    Book Free Strategy Call
+                    Apply Now
                   </Button>
                 </form>
               </CardContent>
@@ -728,8 +617,8 @@ export default function BoinkAgency() {
                   Get in Touch
                 </h3>
                 <p className="text-gray-600">
-                  Ready to take your OnlyFans business to the next level? Our
-                  team is here to help you succeed.
+                  Ready to turn your passion for content creation into a stable
+                  career? Our team is here to make it happen.
                 </p>
               </div>
 
@@ -779,11 +668,11 @@ export default function BoinkAgency() {
                   Why Choose Boink Agency?
                 </h4>
                 <ul className="space-y-2 text-sm text-gray-600">
-                  <li>✓ 5+ years of OnlyFans marketing expertise</li>
-                  <li>✓ $50M+ in revenue generated for clients</li>
+                  <li>✓ 3+ years of OnlyFans expertise</li>
+                  <li>✓ Guaranteed income for creators</li>
                   <li>✓ 24/7 dedicated support team</li>
-                  <li>✓ Transparent reporting and analytics</li>
-                  <li>✓ Ethical and sustainable growth strategies</li>
+                  <li>✓ Transparent collaboration and analytics</li>
+                  <li>✓ Ethical and sustainable opportunities</li>
                 </ul>
               </div>
             </div>
@@ -803,27 +692,27 @@ export default function BoinkAgency() {
                 <span className="text-xl font-bold">BOINK AGENCY</span>
               </div>
               <p className="text-gray-400">
-                The premier OnlyFans marketing agency helping creators achieve
-                financial freedom through strategic growth.
+                The premier OnlyFans talent agency empowering creators with
+                stable, rewarding careers through strategic support.
               </p>
             </div>
 
             <div className="text-right">
-              <h4 className="font-semibold mb-4">Services</h4>
+              <h4 className="font-semibold mb-4">Benefits</h4>
               <ul className="space-y-2 text-gray-400">
                 <li>
                   <Link href="#" className="hover:text-white transition-colors">
-                    Growth Marketing
+                    Guaranteed Income
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="hover:text-white transition-colors">
-                    Account Management
+                    Creative Freedom
                   </Link>
                 </li>
                 <li>
                   <Link href="#" className="hover:text-white transition-colors">
-                    Content Strategy
+                    Amplify Your Audience
                   </Link>
                 </li>
                 <li>
